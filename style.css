@@ -1,17 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 body {
   background-color: white;
+  box-sizing: border-box;
   /* width: 100%; */
   
 }
 
 .container {
-  /* height: 100%;
-  width: 70%; */
+  /* height: 100%; */
+  width: 70%;
   margin-right: auto;
   margin-left: auto;
   background-color: bisque;
@@ -20,7 +22,7 @@ body {
 main {
   display:flex;
   flex-direction: column;
-  background-image: url(images/groundb.jpg);
+  background-image: url("images/groundb.jpg");
   background-repeat: no-repeat;
-  background-size: 1440px 689px;
+  background-position: fit;
 }
