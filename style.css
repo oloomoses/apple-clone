@@ -15,7 +15,7 @@ body {
   /* height: 100%; */
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 75%;
   margin-right: auto;
   margin-left: auto;
   
@@ -30,6 +30,7 @@ main {
   background-image: url(images/groundb.jpg);
   background-position-x: 50%;
   background-position-y: 100%;
+  /* background-size: 100%; */
   background-repeat: no-repeat;  
 }
 
@@ -45,7 +46,7 @@ nav {
 }
 
 ul {
-  width: 80%;
+  /* width: 80%; */
   list-style-type: none;
   margin: 0;
   padding: 0px;
@@ -55,7 +56,7 @@ ul {
 
 li {
   display: inline-block;
-  width: auto;
+  /* width: auto; */
   padding: 20px;
   align-content: center;
   margin-right: 20px;
@@ -74,7 +75,7 @@ li a {
 
 .sm-h {
   margin-left: 200px;
-  margin-top:40px;
+  margin-top: 40px;
   color: white;
 }
 
@@ -87,7 +88,5 @@ li a {
 aside {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  margin: 0;
-  padding: 0;
 }
 
