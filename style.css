@@ -15,23 +15,53 @@ body {
   /* height: 100%; */
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
   margin-right: auto;
   margin-left: auto;
   
 }
 
 main {
+  width: 100%;
+  height: 700px;
   display:flex;
   flex-direction: column;
   background-image: url(images/groundb.jpg);
+  background-position-x: 50%;
+  background-position-y: 100%;
   background-repeat: no-repeat;
-  /* background-position-x: 0px;
-  background-position-y:0px; */
-
   
 }
 
-nav{
+nav {
+  height: 36px;
+  width: 900px;
+  align-items: center;
+  background-color: #7B7B7B;
+  margin: 50px auto 30px auto;
+  border-radius: 5px;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+  width: auto;
+  height: fit-content;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  border-right: 1px solid #0D3B5A;
 
 }
