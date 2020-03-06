@@ -13,16 +13,25 @@ body {
 
 .container {
   /* height: 100%; */
+  display: flex;
+  flex-direction: column;
   width: 70%;
   margin-right: auto;
   margin-left: auto;
-  background-color: bisque;
+  
 }
 
 main {
   display:flex;
   flex-direction: column;
-  background-image: url("images/groundb.jpg");
+  background-image: url(images/groundb.jpg);
   background-repeat: no-repeat;
-  background-position: fit;
+  /* background-position-x: 0px;
+  background-position-y:0px; */
+
+  
+}
+
+nav{
+
 }
