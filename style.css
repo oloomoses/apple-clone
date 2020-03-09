@@ -35,8 +35,9 @@ main {
 }
 
 .nav {
+  /* position: absolute; */
   height: 40px;
-  width: 1040px;
+  width: 980px;
   /* width: 1000px; */
   /* align-items: center; */
   /* background-color: #7B7B7B; */
@@ -58,13 +59,19 @@ main {
   background: #575757;
 }
 
+.search-box {
+  background-color: #757575;
+}
+
 .nav input[type=text] {
-  
-  float: right;
+  position: absolute;
+  overflow: hidden;
+  /* float: right; */
   /* padding: 1px; */
   width: 120px;
   border-radius: 30px;
   margin: 8px 16px;
+  border-width: 0 5px 0 1px;;
   background: none;
 }
 
@@ -91,7 +98,8 @@ aside {
   
 }
 .aside-img img {
-  width: 349px;
+  /* float: left; */
+  width: 347px;
   height: 200px;
   margin: 2px;
 }
