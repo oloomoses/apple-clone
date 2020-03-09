@@ -39,7 +39,8 @@ nav {
   /* max-width: 1000px; */
   width: 1000px;
   align-items: center;
-  background-color: #7B7B7B;
+  /* background-color: #7B7B7B; */
+  background-image: linear-gradient(#5F5F5F 45%, #707070 50%, #757575);
   margin: 100px auto 30px auto;
   border-radius: 5px;
   display: flex;
@@ -72,6 +73,10 @@ li a {
   text-decoration: none; 
   padding: 10px 32px; 
   border-right: 1px solid #0D3B5A;
+}
+
+li a:hover{
+  background: #575757;
 }
 
 .sm-h {
