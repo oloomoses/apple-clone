@@ -12,8 +12,8 @@ body {
 }
 
 main {
-  width: 1800px;
-  height: 670px;
+  width: 1440px;
+  height: 600px;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -29,14 +29,16 @@ main {
 
 .nav {
   /* position: absolute; */
-  height: 40px;
-  width: 1000px;
+  height: 36px;
+  width: 980px;
   /* width: 1000px; */
   /* align-items: center; */
   /* background-color: #7B7B7B; */
   background-image: linear-gradient(#5F5F5F 45%, #707070 50%, #757575);
   margin: 100px auto 30px auto;
   border-radius: 5px;
+
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
 }
 
 .nav a {  
@@ -44,16 +46,42 @@ main {
   display: block;
   color: white;
   text-decoration: none; 
-  padding: 10px 32px; 
-  border-right: 1px solid rgb(65, 67, 68);
+  padding: 9px 36px; 
+  border-right: 1px solid #757575;
+}
+
+.nav a span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin: 3px auto;
+  background: url(images/apple.png) no-repeat 50% 50%;
+  z-index: 1;
+
 }
 
 .nav a:hover {
   background: #575757;
+  border-radius: 5px;
+  /* opacity: 0.4; */
 }
 
 .search-box {
+  /* background-color: #757575; */
+  position: relative;
+  /* z-index: 1; */
+}
+.fa {
+  position: absolute;
+  top: 12px;
+  /* width: 150px; */
+  /* height: 18px; */
   background-color: #757575;
+  /* right: 10px; */
+  /* margin-right: px; */
+  margin-left: 30px;
+  color: white;
+  /* z-index: 1; */
 }
 
 .nav input[type=text] {
@@ -62,10 +90,12 @@ main {
   /* float: right; */
   /* padding: 1px; */
   width: 120px;
-  border-radius: 30px;
-  margin: 8px 16px;
+  border-radius: 10px;
+  margin-top: 10px; 
+  margin-left: 25px;
+  /* margin: px 16px; */
   border-width: 0 5px 0 1px;;
-  background: none;
+  background: transparent;
 }
 
 
@@ -82,7 +112,7 @@ main {
 }
 
 aside {
-  width: 1800px;
+  width: 1440px;
   height: 200px;
   margin-left: auto;
   margin-right: auto;
