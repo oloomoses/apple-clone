@@ -35,7 +35,8 @@ main {
 }
 
 nav {
-  height: 36px;
+  height: 40px;
+  /* max-width: 1000px; */
   width: 1000px;
   align-items: center;
   background-color: #7B7B7B;
@@ -50,26 +51,26 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0px;
-  display: flex;
-  justify-content: space-around;
+  overflow: hidden;
+  /* display: flex;
+  justify-content: space-around; */
 }
 
 li {
-  display: inline-block;
-  /* width: auto; */
-  padding: 20px;
-  align-content: center;
-  margin-right: 20px;
+  float: left;
+  /* display: inline; */
+  /* width: 300px;/ */
+  /* padding: 20px; */
+  /* align-content: center;
+  margin-right: 20px; */
   /* height: fit-content; */
 }
 
 li a {
+  display: block;
   color: white;
-  text-decoration: none;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 5px;
+  text-decoration: none; 
+  padding: 10px 32px; 
   border-right: 1px solid #0D3B5A;
 }
 
