@@ -17,7 +17,7 @@ cd apple-clone
 git checkout development
 firefox .
 ```
-## Demo
+## Live
 - https://oloomoses.github.io/apple-clone/
 
 ## Author
