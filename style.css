@@ -20,27 +20,33 @@ main {
   background-image: url(images/groundb.jpg);
   background-position-x: 50%;
   background-position-y: 100%;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
 
 .nav {
   position: relative;
   height: 36px;
   width: 980px;
-  background: linear-gradient(#707070 50%, #5F5F5F 55%, #757575);
+  background: linear-gradient(#707070 50%, #5f5f5f 55%, #757575);
   margin: 100px auto 30px auto;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
 }
 
-.nav a {  
+.nav a {
   float: left;
   display: block;
   color: white;
-  text-decoration: none; 
-  padding: 9px 36px; 
+  text-decoration: none;
+  padding: 9px 36px;
   border-right: 1px solid #757575;
   font-size: 13px;
+}
+
+.aside-img img {
+  width: 357px;
+  height: 200px;
+  margin: 2px;
 }
 
 .nav a img {
@@ -49,16 +55,6 @@ main {
   left: 1px;
   display: block;
   padding: 4px 20px;
-}
-
-.nav a img:hover {
-  background: #575757;
-  border-radius: 5px;
-}
-
-.nav a:hover {
-  background: #575757;
-  border-radius: 5px;
 }
 
 .search-box {
@@ -82,7 +78,7 @@ main {
   border-bottom: 2px solid #757575;
   border-right: 1px solid #464343;
   border-left: 1px solid #464343;
-  margin-top: 10px; 
+  margin-top: 10px;
   margin-left: 25px;
   padding-left: 20px;
   background: none;
@@ -94,26 +90,14 @@ main {
   color: white;
 }
 
-.sm-h a:hover {
-  border-bottom: 1px solid white;
-  margin: 0;
-  color: white;
-}
-
 aside {
   width: 1440px;
   height: 200px;
   margin-left: auto;
   margin-right: auto;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.aside-img img {
-  width: 357px;
-  height: 200px;
-  margin: 2px;
 }
 
 footer {
@@ -124,47 +108,62 @@ footer {
 
 .left {
   float: left;
-  font-size: .8334em;
+  font-size: 0.8334em;
   color: #757575;
 }
 
 .left a {
   text-decoration: none;
-  color: #3F9BDC;
+  color: #3f9bdc;
 }
 
 .right {
   float: right;
   list-style-type: none;
   margin: 0;
-  font-size: .8334em;
+  font-size: 0.8334em;
   padding: 0;
 }
 
 .right a {
   text-decoration: none;
-  color: #3F9BDC;
-  margin-left: .6em;
-  border-left: .1px solid #ccc;
-  padding-left: .6em;
+  color: #3f9bdc;
+  margin-left: 0.6em;
+  border-left: 0.1px solid #ccc;
+  padding-left: 0.6em;
 }
 
 .clear {
   clear: both;
-  margin-top: 30px;  
-  font-size: .8334em;
+  margin-top: 30px;
+  font-size: 0.8334em;
   color: #757575;
 }
 
 .clear a {
   text-decoration: none;
-  color: #3F9BDC;
-  margin-left: .6em;
+  color: #3f9bdc;
+  margin-left: 0.6em;
   border-left: 1px solid #ccc;
-  padding-left: .6em;
+  padding-left: 0.6em;
 }
 
 footer a:hover {
   text-decoration: underline;
 }
 
+.sm-h a:hover {
+  border-bottom: 1px solid white;
+  margin: 0;
+  color: white;
+}
+
+.nav a:hover {
+  background: #575757;
+  border-radius: 5px;
+}
+
+.nav a img:hover {
+  background: #575757;
+  border-radius: 5px;
+}
