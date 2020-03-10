@@ -1,7 +1,7 @@
 # Apple Clone
 
 ## Description
-This project is a clone of the old apple web page
+This a project to create clone of the old apple web page
 
 ![screenshot](images/Screenshot.jpg)
 
