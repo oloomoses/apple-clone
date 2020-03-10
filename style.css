@@ -6,8 +6,9 @@
 
 body {
   background-color: white;
-  box-sizing: border-box;
-  width: 100%;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
@@ -89,6 +90,7 @@ main {
 aside {
   width: 1440px;
   height: 200px;
+  margin-top: 2px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -101,7 +103,7 @@ aside {
   background-image: url(images/4199f096e33e638ba9aeb6c6dec3a3e64794d02c.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 2px;
+  /* margin-right: 2px; */
 }
 
 .aside-img2 {
@@ -110,7 +112,7 @@ aside {
   background-image: url(images/6032fe46fd16493ddda4e90ae45725962fc826b9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 2px;
+  /* margin: 2px; */
 }
 
 .aside-img3 {
@@ -119,7 +121,7 @@ aside {
   background-image: url(images/307a4ef1971d63d523c362cc3e49f923549fcefc.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 2px;
+  /* margin: 2px; */
 }
 
 .aside-img4 {
@@ -128,7 +130,7 @@ aside {
   background-image: url(images/ec67ffeb084d1b9c83687205641697baa4122bee.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 2px;
+  /* margin: 2px; */
 }
 
 footer {
