@@ -1,10 +1,8 @@
 # Apple Clone
 
 ## Description
-This a project to create clone of the old apple web page
-
+This is a project to create clone of the old apple web page
 ![screenshot](images/Screenshot.jpg)
-
 
 ## Built With
 - HTML & CSS
