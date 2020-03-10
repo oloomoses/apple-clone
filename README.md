@@ -1,10 +1,8 @@
 # Apple Clone
 
 ## Description
-This project is a clone of the old apple web page
-
+This is a project to create clone of the old apple web page
 ![screenshot](images/Screenshot.jpg)
-
 
 ## Built With
 - HTML & CSS
@@ -19,7 +17,7 @@ cd apple-clone
 git checkout development
 firefox .
 ```
-## Demo
+## Live
 - https://oloomoses.github.io/apple-clone/
 
 ## Author
