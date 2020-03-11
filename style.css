@@ -6,20 +6,14 @@
 
 body {
   background-color: white;
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 main {
-  width: 1440px;
-  height: 640px;
   display: flex;
+  height: 650px;
   flex-direction: column;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
   background-image: url(images/groundb.jpg);
   background-position-x: 50%;
   background-position-y: 100%;
@@ -88,49 +82,48 @@ main {
 }
 
 aside {
-  width: 1440px;
   height: 200px;
-  margin-top: 2px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .aside-img1 {
-  width: 380px;
+  width: 358px;
   height: 200px;
+  margin: 2px;
   background-image: url(images/4199f096e33e638ba9aeb6c6dec3a3e64794d02c.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* margin-right: 2px; */
 }
 
 .aside-img2 {
-  width: 380px;
+  width: 358px;
   height: 200px;
+  margin: 2px;
   background-image: url(images/6032fe46fd16493ddda4e90ae45725962fc826b9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* margin: 2px; */
 }
 
 .aside-img3 {
-  width: 380px;
+  width: 358px;
   height: 200px;
+  margin: 2px;
   background-image: url(images/307a4ef1971d63d523c362cc3e49f923549fcefc.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* margin: 2px; */
 }
 
 .aside-img4 {
-  width: 380px;
+  width: 358px;
   height: 200px;
+  margin: 2px;
   background-image: url(images/ec67ffeb084d1b9c83687205641697baa4122bee.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* margin: 2px; */
 }
 
 footer {
